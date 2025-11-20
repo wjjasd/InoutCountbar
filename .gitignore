@@ -1,0 +1,53 @@
+# ----------------------------------
+# 1. JetBrains/Android Studio Specific
+# ----------------------------------
+# IDE 설정 디렉토리 (사용자별 로컬 설정)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries/
+.idea/vcs.xml
+.idea/codeStyles/
+.idea/caches
+.idea/dictionaries/
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/compiler.xml
+.idea/gradle.xml
+
+# 로컬 설정 파일 및 임시 파일
+local.properties
+.DS_Store
+
+# ----------------------------------
+# 2. Gradle / Build / Output
+# ----------------------------------
+# Gradle Wrapper 로그 및 임시 파일
+.gradle/
+
+# 모든 빌드 디렉토리 (최상위 및 모듈별 build 폴더 모두 포함)
+/build
+*/build/
+
+# ----------------------------------
+# 3. Android Specific Files
+# ----------------------------------
+# 모듈 파일
+*.iml
+
+# NDK/C++ 빌드 파일
+.cxx
+.externalNativeBuild
+
+# APK, AAB, JAR 등 최종 출력물 (필요한 경우에만)
+/captures
+build/outputs/
+build/intermediates/
+
+# ProGuard 및 R8 맵핑 파일
+proguard-project.txt
+
+# ----------------------------------
+# 4. 기타
+# ----------------------------------
+# Windows 썸네일 캐시
+Thumbs.db

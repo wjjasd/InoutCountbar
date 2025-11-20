@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InOutCountBar">
+        <!-- Bar 색상 -->
+        <attr name="barInColor" format="color" />
+        <attr name="barOutColor" format="color" />
+        <attr name="barCountColor" format="color" />
+        <attr name="barOutlineColor" format="color" />
+
+        <!-- Text 속성 -->
+        <attr name="entryTextColor" format="color" />
+        <attr name="exitTextColor" format="color" />
+        <attr name="entryTextSize" format="dimension" />
+        <attr name="exitTextSize" format="dimension" />
+        <attr name="entryTextFont" format="reference" />
+        <attr name="exitTextFont" format="reference" />
+    </declare-styleable>
+</resources>
