@@ -51,3 +51,5 @@ proguard-project.txt
 # ----------------------------------
 # Windows 썸네일 캐시
 Thumbs.db
+.idea/misc.xml
+.idea/modules.xml

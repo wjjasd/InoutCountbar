@@ -2,6 +2,8 @@
 
 InOutCountBar는 입장(IN), 퇴장(OUT), 현재 인원(COUNT) 세 가지 데이터의 비율을 하나의 막대 그래프로 시각화하는 Android 커스텀 View 컴포넌트입니다. 비율 변화에 따라 부드러운 애니메이션을 제공하며 상태 변화를 직관적으로 보여줍니다.
 
+<img src="app/src/main/assets/demo.gif" width="600" alt="Demo" />
+
 ## 📥 JitPack 리포지토리를 추가합니다.
 
 ```kotlin

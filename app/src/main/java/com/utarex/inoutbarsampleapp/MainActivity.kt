@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
         // lastEntry/Exit는 현재 시각 샘플
         val now = java.text.SimpleDateFormat("HH:mm:ss").format(System.currentTimeMillis())
-        binding.inoutBar.lastEntry = "In $now"
-        binding.inoutBar.lastExit = "Out $now"
+        binding.inoutBar.lastEntry = "Last Entry $now"
+        binding.inoutBar.lastExit = "Last Exit $now"
     }
 }
