@@ -44,7 +44,6 @@ dependencies {
 ```
 
 ```kotlin
-// MainActivity.kt
 
 // ...
 
@@ -71,3 +70,17 @@ inOutBar.lastExit = "최근 퇴장: 10:45"
 | `exitTextColor`    | color       | Exit 텍스트 색상 |
 | `entryTextSize`    | dimension   | Entry 텍스트 크기 |
 | `exitTextSize`     | dimension   | Exit 텍스트 크기 |
+
+```xml
+<com.utarex.inoutbar.InOutCountBar
+        android:id="@+id/inoutBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:barInColor="@color/green_500"
+        app:barOutColor="@color/red_500"
+        app:barCountColor="@color/blue_500"
+        app:entryTextColor="@color/gray_700"
+        app:exitTextColor="@color/gray_700"
+        app:entryTextSize="12sp"
+        app:exitTextSize="12sp" />
+```
