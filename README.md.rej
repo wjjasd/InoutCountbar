@@ -1,0 +1,6 @@
+diff a/README.md b/README.md	(rejected hunks)
+@@ -69,2 +69,3 @@
+ | `exitTextColor`    | color       | Exit 텍스트 색상 |
+ | `entryTextSize`    | dimension   | Entry 텍스트 크기 |
+\ No newline at end of file
++| `exitTextSize`     | dimension   | Exit 텍스트 크기 |

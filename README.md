@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 dependencies {
     
     // 의존성 추가
-    implementation("com.github.wjjasd:InoutCountbar:1.0.0")
+    implementation("com.github.wjjasd:InoutCountbar:1.0.1")
 }
 ```
 
